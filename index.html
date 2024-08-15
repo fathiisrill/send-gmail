@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Kontak</title>
+</head>
+<body>
+
+  <h1>Untuk mengirimi pesan</h1>
+  <p>*masukan nama, gmail, dan isi pesan dengan id freefire anda atau dengan sosial media anda seperti wa, ig, fb, dll.</p>
+
+  <form action="send_email.php" method="post">
+    <label for="nama">Nama:</label><br>
+    <input type="text" id="nama" name="nama" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="pesan">Pesan:</label><br>
+    <textarea id="pesan" name="pesan" required></textarea><br><br>
+
+    <input type="submit" value="Kirim">
+  </form>
+
+</body>
+</html>
